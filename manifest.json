@@ -4,10 +4,19 @@
     "version": "1.0",
     "manifest_version": 3,
     "author": "petokrisa2006@gmail.com",
+    "icons": {
+      "16": "assets/logo.png",
+      "48": "assets/logo.png",
+      "128": "assets/logo.png"
+    },
     "action": {
         "default_popup": "popup/popup.html",
-        "default_icon": "assets/logo.png"
+        "default_icon": {
+            "16": "assets/logo.png",
+            "32": "assets/logo.png"
+        }
     },
+    "options_page": "options/options.html",
     "background": {
         "service_worker": "scripts/background.js"
     },
@@ -22,6 +31,4 @@
     }
   ],
   "permissions": ["storage", "tabs"]
-
-
 }

@@ -1,0 +1,33 @@
+*{
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+html{
+    font-family: Helvetica;
+    background-color: rgb(41, 41, 44);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin: 5px;
+    position: relative;
+}
+
+.box{
+    border-radius: 30px;
+    background: linear-gradient(145deg, #2c2c2f, #252528);
+    box-shadow:  26px 26px 52px #19191b,
+                -26px -26px 52px #39393d;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px;
+}
+
+label{
+    font-size: large;
+    cursor: pointer;
+}
+
+input{
+    cursor: pointer;
+}
