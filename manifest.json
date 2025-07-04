@@ -1,7 +1,7 @@
 {
     "name": "YouTube Shorts blocker",
     "description": "Automatically redirects back to the youtube homepage when youtube shorts is opened to save you from doomscrolling",
-    "version": "1.1",
+    "version": "1.2",
     "manifest_version": 3,
     "author": "petokrisa2006@gmail.com",
     "icons": {
